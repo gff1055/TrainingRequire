@@ -4,12 +4,12 @@
 define(
 	["jquery", "myModules"],
 	function($,myModules){
-		$(function(){
+		//$(function(){
 			$('.btn').on('click',
 				function(){
 					var number1 = $('#number1').val();
 					var number2 = $('#number2').val();
 					alert(myModules.sum(number1, number2));}
 			);
-		});
+		//});
 });
